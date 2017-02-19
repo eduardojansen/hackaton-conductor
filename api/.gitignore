@@ -1,0 +1,17 @@
+/modelagem_banco.mwb.bak
+/public/uploads
+/public/images
+/public/main.log
+/nbproject/private/
+composer.lock
+/nbproject
+/vendor/
+public/uploads
+main.log
+/logs/*
+!/logs/README.md
+src/config.php
+.DS_Store
+.idea
+.idea/*
+*.iml

@@ -1,0 +1,32 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>{{row.nome}}</h2>
+    </div>
+</div>
+<div class="row wrapper m-t-lg">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="checkbox" ng-repeat="friend in row.friends track by $index">
+                                <label>
+                                    <input type="checkbox" ng-model="friend.selected" ng-change="updateFriendsInvite(friend)" /> {{friend.name}}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" ng-if="row.promocao">
+                            <div class="alert alert-warning">
+                                <p>{{row.promocao}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ibox-content text-center">
+                    <button class="btn btn-success btn-block" type="button" ng-disabled="friendsToInvite.length <= 0" ng-click="inviteFriends()">Bora Lá?!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

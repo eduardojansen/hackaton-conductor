@@ -1,0 +1,17 @@
+<div class="middle-box text-center loginscreen animated fadeInDown">
+    <div>
+        <div>
+            <h1 class="logo-name">
+                <img src="./images/logo-login.png" alt="Logo" />
+            </h1>
+        </div>
+        <h3 class="text-gray">Olá, somos o BoraLá.</h3>
+        <p class="text-gray m-b-lg">Marcamos encontros para grupos de amigos através de indicadores gerados em compras efetuadas em nossa rede de filiados.</p>
+
+        <button type="submit" ng-click="login()" ladda="loadingBtn" class="ladda-button btn btn-success block full-width">Logar com Facebook</button>
+        <div class="alert alert-danger m-t-md" ng-if="errorMessage">
+            {{errorMessage}}
+        </div>
+
+    </div>
+</div>

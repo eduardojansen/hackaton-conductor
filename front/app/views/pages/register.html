@@ -1,0 +1,38 @@
+<div class="loader-container">
+    <div class="loader-content animated fadeInDown" ng-if="loadingMessage">
+        <div id="loader" class="text-center">
+            <div class="sk-spinner sk-spinner-wave">
+                <div class="sk-rect1"></div>
+                <div class="sk-rect2"></div>
+                <div class="sk-rect3"></div>
+                <div class="sk-rect4"></div>
+                <div class="sk-rect5"></div>
+            </div>
+            <h4>{{loadingMessage}}</h4>
+        </div>
+        <div class="loader-overlay"></div>
+    </div>
+
+    <div class="middle-box lockscreen animated fadeInDown" ng-if="row">
+        <div>
+            <div class="m-b-md text-center">
+                <img alt="image" class="img-circle circle-border" style="width: 150px; height: 150px;" ng-src="{{row.anexo}}" />
+            </div>
+            <form class="m-t">
+                <div class="form-group">
+                    <label for="nome" class="control-label">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome" data-rule-required="true" ng-model="row.nome" />
+                </div>
+                <div class="form-group">
+                    <label for="email" class="control-label">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="email" data-rule-required="true" ng-model="row.email" />
+                </div>
+                <div class="form-group">
+                    <label for="cpf" class="control-label">CPF</label>
+                    <input type="text" class="form-control" name="cpf" id="cpf" data-mask="999.999.999-99" data-rule-required="true" ng-model="row.cpf" />
+                </div>
+                <button type="button" ng-click="completeRegister(row)" ladda="loadingSubmit" class="ladda-button btn btn-primary block full-width">Avançar</button>
+            </form>
+        </div>
+    </div>
+</div>

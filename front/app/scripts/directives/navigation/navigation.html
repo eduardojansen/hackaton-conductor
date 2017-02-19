@@ -1,0 +1,38 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul side-navigation class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="profile-element" uib-dropdown>
+                    <div class="text-center">
+                        <span>
+                            <img alt="image" class="img-avatar" ng-if="User.anexo" ng-src="{{User.anexo}}" />
+                        </span>
+                        <a uib-dropdown-toggle href>
+                            <span class="clear">
+                                <span class="block m-t-xs">
+                                    <strong class="font-bold text-white">{{User.nome}}</strong>
+                                </span>
+                                <!--<a class="text-xs" ui-sref="main.editar-perfil">Minha Conta</a>-->
+                            </span>
+                        </a>
+                        <!--<ul uib-dropdown-menu class="animated fadeInRight m-t-xs">-->
+                            <!--<li><a href="profile.html">Profile</a></li>-->
+                            <!--<li><a href="contacts.html">Contacts</a></li>-->
+                            <!--<li><a href="mailbox.html">Mailbox</a></li>-->
+                            <!--<li class="divider"></li>-->
+                            <!--<li><a href="login.html">Logout</a></li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </li>
+
+            <li ui-sref-active="active">
+                <a ui-sref="main.index">
+                    <i class="fa fa-th-large"></i>
+                    <span class="nav-label">Home</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</nav>

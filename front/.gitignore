@@ -1,0 +1,9 @@
+/bower_components
+/dist
+/node_modules
+/app/styles/plugins
+/app/styles/style.css
+/app/scripts/plugins/
+/.tmp
+.idea
+hackaton-conductor.iml

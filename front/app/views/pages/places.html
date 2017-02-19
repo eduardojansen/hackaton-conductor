@@ -1,0 +1,39 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-12">
+        <div class="form-group m-t-lg">
+            <select class="form-control" name="order" id="order" ng-model="filter.order" ng-options="item as item.label for item in filters track by item.id" ng-change="filtrar(ids, categoria, filter.order)">
+                <option value="">Filtrar por</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="row m-t-md">
+    <div class="col-lg-12">
+
+        <div class="alert alert-warning" ng-if="rows.length == 0">
+            <p>Ainda não temos informações suficientes para processar suas sugestões.</p>
+        </div>
+
+        <div class="ibox" ng-click="choosePlace(place)" ng-repeat="place in rows track by $index">
+            <div class="ibox-title">
+                <span class="label label-primary pull-right">{{place.valor_medio | currency:'R$ '}}</span>
+                <h5>{{place.nome}}</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="team-members">
+                    <img alt="member" class="img-circle" ng-src="{{friend.picture.data.url}}" ng-repeat="friend in place.friends track by $index" />
+                </div>
+                <div class="row m-t-sm" ng-if="place.promocao">
+                    <div class="col-sm-12 text-right">
+                        <div class="btn-group">
+                            <a href class="btn btn-default" ng-if="place.promocao"><i class="fa fa-ticket"></i></a>
+                            <!--<a href="" class="btn btn-default"><i class="fa fa-map-marker"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

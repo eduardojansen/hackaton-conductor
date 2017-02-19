@@ -1,0 +1,17 @@
+version: '2'
+services:
+  web:
+    image: "web"
+    ports:
+      - "8000:80"
+    volumes:
+      - "../:/var/www/html"
+#  mysql:
+#     image: "mysql:latest"
+#     ports:
+#       - "3306:3306"
+#     environment:
+#       MYSQL_ROOT_PASSWORD: root
+#       MYSQL_DATABASE: acqiopay_dev
+#       MYSQL_USER: root
+#       MYSQL_PASSWORD: root

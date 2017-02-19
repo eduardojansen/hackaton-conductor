@@ -1,0 +1,11 @@
+<form id="searchForm" name="searchForm" method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="text" id="search" name="search" placeholder="{{label}}" class="input form-control" ng-model="searchParams" />
+
+            <span class="input-group-btn" style="vertical-align: top">
+                <button id="btnSearch" type="button" ng-click="doAction(searchParams)" class="btn btn-light-green"> <i class="fa fa-search"></i> Pesquisar</button>
+            </span>
+        </div>
+    </div>
+</form>

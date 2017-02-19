@@ -1,0 +1,16 @@
+<div class="middle-box friends-page animated fadeInDown">
+    <div class="ibox">
+        <div class="ibox-content">
+            <h3>Opa, encontramos alguns amigos seus</h3>
+            <p class="small">
+                Cruzamos seus amigos do Facebook e encontramos alguns deles na nossa plataforma.
+            </p>
+            <div class="user-friends">
+                <img alt="{{friend.name}}" title="{{friend.name}}" class="img-circle" ng-src="{{friend.picture.data.url}}" ng-repeat="friend in rows track by $index" />
+            </div>
+        </div>
+        <div class="ibox-footer text-right">
+            <button ladda="loadingSubmit" class="ladda-button btn btn-primary" ng-disabled="!rows" ng-click="updateFriends()" type="button">Proximo <i class="fa fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>

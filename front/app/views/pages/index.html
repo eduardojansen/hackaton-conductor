@@ -1,0 +1,18 @@
+<div class="clients-list">
+    <div class="full-height-scroll">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <tbody>
+                    <tr ng-repeat="category in rows track by $index">
+                        <td class="category-icon" ng-click="chooseCategory(category)">
+                            <div class="cat-icon blue-bg">
+                                <i class="fa" set-icon item="category.categoria | lowercase"></i>
+                            </div>
+                        </td>
+                        <td ng-click="chooseCategory(category)">{{category.categoria}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

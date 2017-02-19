@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Banco do Brasil"
+  },
+  {
+    "id": 3,
+    "name": "Banco da Amaz\u00f4nia"
+  },
+  {
+    "id": 4,
+    "name": "Banco do Nordeste do Brasil"
+  },
+  {
+    "id": 21,
+    "name": "Banco do Estado do Esp\u00edrito Santo"
+  },
+  {
+    "id": 25,
+    "name": "Banco Alfa"
+  },
+  {
+    "id": 33,
+    "name": "Banco Santander"
+  },
+  {
+    "id": 37,
+    "name": "Banco do Estado do Par\u00e1"
+  },
+  {
+    "id": 41,
+    "name": "Banco do Estado do Rio Grande do Sul"
+  },
+  {
+    "id": 47,
+    "name": "Banco do Estado de Sergipe"
+  },
+  {
+    "id": 70,
+    "name": "Banco de Bras\u00edlia"
+  },
+  {
+    "id": 73,
+    "name": "Banco Popular do Brasil"
+  },
+  {
+    "id": 77,
+    "name": "Banco Intermedium"
+  },
+  {
+    "id": 82,
+    "name": "Banco Top\u00e1zio"
+  },
+  {
+    "id": 104,
+    "name": "Caixa Econ\u00f4mica Federal"
+  },
+  {
+    "id": 136,
+    "name": "CCUNICRED do Brasil"
+  },
+  {
+    "id": 208,
+    "name": "Banco BTG Pactual"
+  },
+  {
+    "id": 237,
+    "name": "Bradesco"
+  },
+  {
+    "id": 318,
+    "name": "Banco BMG"
+  },
+  {
+    "id": 341,
+    "name": "Banco Ita\u00fa"
+  },
+  {
+    "id": 389,
+    "name": "Banco Mercantil do Brasil"
+  },
+  {
+    "id": 399,
+    "name": "Banco HSBC Bank Brasil"
+  },
+  {
+    "id": 422,
+    "name": "Banco Safra"
+  },
+  {
+    "id": 453,
+    "name": "Banco Rural"
+  },
+  {
+    "id": 505,
+    "name": "Banco Credit Suisse"
+  },
+  {
+    "id": 623,
+    "name": "Banco Panamericano"
+  },
+  {
+    "id": 637,
+    "name": "Banco Sofisa"
+  },
+  {
+    "id": 638,
+    "name": "Banco Prosper"
+  },
+  {
+    "id": 647,
+    "name": "Banco Marka"
+  },
+  {
+    "id": 719,
+    "name": "Banco Banif"
+  },
+  {
+    "id": 745,
+    "name": "Banco Citibank"
+  },
+  {
+    "id": 748,
+    "name": "Banco Cooperativo Sicredi - BANSICREDI"
+  },
+  {
+    "id": 756,
+    "name": "Banco Cooperativo do Brasil - BANCOOB"
+  },
+  {
+    "id": 999,
+    "name": "Outro"
+  }
+]
